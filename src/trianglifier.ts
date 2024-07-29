@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+  
 import { Readable } from "stream";
 import yargs from "yargs";
 import trianglify from "trianglify";
