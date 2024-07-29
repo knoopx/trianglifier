@@ -69,7 +69,7 @@ if (argv.format === "svg") {
   const stream = canvas.createPNGStream();
 
   // convert the tream to base64 and print it to stdout
-  const chunks: Buffer[] = [];
+  const chunks = [];
   stream.on("data", (chunk) => chunks.push(chunk));
   stream.on("end", () => {
     const buffer = Buffer.concat(chunks);
