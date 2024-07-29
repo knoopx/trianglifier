@@ -11,6 +11,7 @@
   "version": "1.0.0",
   "description": "A command line tool to generate images using github.com/qrohlf/trianglify",
   "main": "trianglifier.js",
+  "bin": "trianglifier.js",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean"
