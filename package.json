@@ -2,6 +2,7 @@
   "name": "trianglifier",
   "version": "1.0.0",
   "description": "A command line tool to generate images using github.com/qrohlf/trianglify",
+  "type": "module",
   "main": "src/trianglifier.js",
   "bin": {
       "trianglifier": "src/trianglifier.js"
