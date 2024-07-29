@@ -66,7 +66,7 @@ if (argv.format === "svg") {
 } else {
   // get the png stream
   const canvas = trianglifier.toCanvas();
-  const stream = canvas.createPNGStream() as Readable;
+  const stream = canvas.createPNGStream();
 
   // convert the tream to base64 and print it to stdout
   const chunks: Buffer[] = [];
